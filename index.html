@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+
+<body style="margin:0;">
+ <div style="width: 100%; margin: 0 auto;display: flex;justify-content: center;">
+  <div id="show-chart" style="width: 1000px;height: 500px;">
+
+  </div>
+ </div>
+
+ <script src="https://analytics-dev.inetcloud.vn/js/visualize/analytics.js"></script>
+ <script>
+  document.addEventListener('DOMContentLoaded', () => {
+   viewPublish('https://analytics-dev.inetcloud.vn/analytics/smartcloud/tinyroute/6448f4f0cc94962ac83596dc.cpx?secrd=kYOd/sGtr426a9HjxbYBmCECd6pudSeI8DGVduOdJlfsi5Nuadbt3T4xnE+Gt0RkqvOzwBAi9wN05z8U2s2UOyYXzPAh+qnR', 'show-chart', 500, 500);
+   window.addEventListener('resize', () => {
+    setTimeout(() => {
+     resizeElement('https://analytics-dev.inetcloud.vn/analytics/smartcloud/tinyroute/6448f4f0cc94962ac83596dc.cpx?secrd=kYOd/sGtr426a9HjxbYBmCECd6pudSeI8DGVduOdJlfsi5Nuadbt3T4xnE+Gt0RkqvOzwBAi9wN05z8U2s2UOyYXzPAh+qnR', 'show-chart', 500, 500);
+    }, 500)
+   })
+  })
+ </script>
+ 
+</body>
+
+</html>
